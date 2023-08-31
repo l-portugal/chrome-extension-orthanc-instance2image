@@ -13,15 +13,5 @@
     "action": {
         "default_popup": "index.html",
         "default_title": "Orthanc Instance2Image"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "app.js"
-            ]
-        }
-    ]
+    }
 }
